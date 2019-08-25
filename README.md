@@ -1,2 +1,2 @@
-# knowmore.github.io
+# KNOWMORE
 Wiki for the pursuit for knowledge
