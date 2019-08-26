@@ -1,17 +1,20 @@
-# Brand name
+# YourPageTitle
 
-[Menu Item 1]()
+[Page1](page1.md)
+[Page2](page2.md)
+[Page3](page3.md)
 
-  * # SubMenu Heading 1
-  * [SubMenu Item 1](subitem1.md)
-  * [SubMenu Item 2](subitem2.md)
-  - - - -
-  * # SubMenu Heading 2
-  * [SubMenu Item 3](subitem3.md)
-  - - - -
-  * # SubMenu Heading 3
-  * [SubMenu Item 3](subitem3.md)
+[SubMenuName]()
 
-[Menu Item 2](item2.md)
-- - - -
-[Menu Item 3](item3.md)
+  * [SubPage1](subpage/page1.md)
+  * [SubPage2](subpage/page2.md)
+  * [SubPage3](subpage/page3.md)
+
+<!-- set a default theme -->
+[gimmick:theme (inverse: false)](bootstrap)
+
+<!-- show a theme chooser in the menu bar -->
+[gimmick:ThemeChooser](Change theme)
+
+<!-- show a fork me on github ribbon -->
+[gimmick:forkmeongithub](http://github.com/Dynalon/mdwiki-seed/)
