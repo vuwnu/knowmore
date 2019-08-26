@@ -1,3 +1,7 @@
 {
-    "useSideNav": "true"
+    "useSideMenu": true,
+    "lineBreaks": "gfm",
+    "additionalFooterText": "Knowmore is a [VIRI.SPACE](http://viri.space) project",
+    "anchorCharacter": "&#11042;",
+    "title": "Knowmore"
 }

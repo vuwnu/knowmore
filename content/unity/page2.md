@@ -1,4 +1,4 @@
-# Page 2
+# SubPage 2
 
 ## Section 1
 

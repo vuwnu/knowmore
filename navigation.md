@@ -1,20 +1,22 @@
-# YourPageTitle
+# Knowmore
 
-[Page1](page1.md)
-[Page2](page2.md)
-[Page3](page3.md)
+[Home](index.md)
 
-[SubMenuName]()
+[Blender]()
 
-  * [SubPage1](subpage/page1.md)
-  * [SubPage2](subpage/page2.md)
-  * [SubPage3](subpage/page3.md)
+  * [SubPage1](blender/page1.md)
+  * [SubPage2](blender/page2.md)
+  * [SubPage3](blender/page3.md)
+
+[Unity]()
+  * [SubPage1](unity/page1.md)
+  * [SubPage2](unity/page2.md)
+  * [SubPage3](unity/page3.md)
 
 <!-- set a default theme -->
-[gimmick:theme (inverse: false)](bootstrap)
+[gimmick:theme (inverse: false)](cosmo)
 
 <!-- show a theme chooser in the menu bar -->
 [gimmick:ThemeChooser](Change theme)
 
-<!-- show a fork me on github ribbon -->
-[gimmick:forkmeongithub](http://github.com/Dynalon/mdwiki-seed/)
+[README](README.md)
