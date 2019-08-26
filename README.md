@@ -1,8 +1,6 @@
-MDwiki Seed
+Knowmore
 ===========
 
-### A basic file layout template that you can fork to build your own websites or wikis with MDwiki.
+### Repo for the Knowmore website, hosted through Github pages
 
-#### See <http://mdwiki.info/> for details and documentation.
-
-
+#### Visit the website at http://knowmore.viri.space
