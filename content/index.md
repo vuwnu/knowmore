@@ -1,18 +1,9 @@
-# KNOWMORE
-==========
+![](static/img/logo.png)
+# Knowmore
 
-Wiki for the pursuit for knowledge
+This wiki was created with the goal of documenting information and knowledge on a broad variety of subjects. Use the navigation menu at the top of the page to access different parts of the wiki. Areas are divided based on information type.
 
-Heading
+How can I help?
 =======
 
-SubHeading
-----------
-
-  * list item 1
-  * list item 2
-
-  This is a hyperlink to [Google](http://google.com).
-
-  Images are like hyperlinks, but with an exclamation mark in front of them:
-  ![](http://placekitten.com/g/250/250)
+If you wish to make any changes to the wiki yourself, feel free to check out the [Github](https://github.com/viri-space/knowmore) page and make a pull request. Any help at all is appreciate.
