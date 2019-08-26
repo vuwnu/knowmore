@@ -18,3 +18,5 @@
 
 <!-- show a theme chooser in the menu bar -->
 [gimmick:ThemeChooser](Change theme)
+
+[README](README.md)
