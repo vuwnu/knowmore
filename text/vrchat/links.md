@@ -7,10 +7,8 @@ Unity
 ---------
 
   * [Lin's Unity Packages](https://github.com/oofdesu/lin-unity-packages)
-  * [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA)
 
 Blender
 ---------
 
-  * [Lazy Blender Tutorials](https://www.youtube.com/channel/UCbmxZRQk-X0p-TOxd6PEYJA)
-  * [CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg)
+  * [Cats Blender Plugin](https://catsblenderplugin.com/homepage)

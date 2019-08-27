@@ -1,11 +1,9 @@
-<img src="img/logo.png" alt="Knowmore">
-<br>
-<br>
-<br>
+![Knowmore](img/logo.png)
+
 This wiki was created with the goal of documenting information and knowledge on a broad variety of subjects in the most concise way possible. Use the navigation menu at the top of the page to access different parts of the wiki. Areas are divided based on information type.
 
 How can I help?
-=======
+----
 
 If you wish to make any changes to the wiki yourself, feel free to check out the [<b style="color:deepskyblue;">Github</b>](https://github.com/viri-space/knowmore) page and make a pull request.
 
