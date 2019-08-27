@@ -1,3 +1,4 @@
+[](img/logo.png)
 # Knowmore
 
 This wiki was created with the goal of documenting information and knowledge on a broad variety of subjects. Use the navigation menu at the top of the page to access different parts of the wiki. Areas are divided based on information type.
