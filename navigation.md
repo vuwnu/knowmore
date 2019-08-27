@@ -7,20 +7,19 @@
 
 [Blender]()
 
-  * [SubPage1](text/blender/page1.md)
-  * [SubPage2](text/blender/page2.md)
-  * [SubPage3](text/blender/page3.md)
+  * [Basics](text/blender/basics.md)
+
+  [Modelling]()
+
+    * [Primitives](text/blender/primitives.md)
 
 [Unity]()
 
-  * [SubPage1](text/unity/page1.md)
-  * [SubPage2](text/unity/page2.md)
-  * [SubPage3](text/unity/page3.md)
 
 [Link Dump](text/linkdump.md)
 
 <!-- set a default theme -->
-[gimmick:theme (inverse: false)](cosmo)
+[gimmick:theme](cosmo)
 
 <!-- show a theme chooser in the menu bar -->
 [gimmick:ThemeChooser](Change theme)

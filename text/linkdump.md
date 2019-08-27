@@ -7,12 +7,18 @@ Unity
 ---------
 
   * [WeaverDev Blog](https://www.weaverdev.io/)
+  * [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA)
 
 Blender
 ---------
 
   * [Lazy Blender Tutorials](https://www.youtube.com/channel/UCbmxZRQk-X0p-TOxd6PEYJA)
-  * [CG Matter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg)
+  * [CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg)
+
+Javascript
+---------
+
+  * [Javascript Kit](http://www.javascriptkit.com/)
 
 CSS
 ---------
