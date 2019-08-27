@@ -4,20 +4,20 @@ Blender Addons
 These are all addons that are worth trying to improve your Blender work flow.
 
 
-<b style="color:lime;">MACHIN3tools</b>
+**MACHIN3tools**
 ---------
 MACHIN3tools is a free, continuously evolving collection of blender tools and pie menus in a single customizable package.
 
-[<b style="color:limegreen;">Download Here</b>](https://gumroad.com/l/MACHIN3tools)
+[<b>Download on Gumroad</b>](https://gumroad.com/l/MACHIN3tools)
 
-<b style="color:lime;">UV Squares</b>
+**UV Squares**
 ---------
 Blender's UV Editor tool that reshapes UV selection into grid.
 
-[<b style="color:limegreen;">Download Here</b>](https://github.com/Radivarig/UvSquares)
+[<b>Download on Github</b>](https://github.com/Radivarig/UvSquares)
 
-<b style="color:lime;">Magic UV</b>
+**Magic UV**
 ---------
 This addon gives Blender multiple new options for creating and manipulating UVs.
 
-[<b style="color:limegreen;">Download Here</b>](https://github.com/nutti/Magic-UV/releases)
+[<b>Download on Github</b>](https://github.com/nutti/Magic-UV/releases)

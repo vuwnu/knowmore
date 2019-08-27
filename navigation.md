@@ -2,25 +2,25 @@
 
 [VRChat]()
 
-  * [Blender](text/vrchat/blender.md)
-  * [Unity](text/vrchat/unity.md)
-  - - - -
-  * [Links](text/vrchat/links.md)
+*   [Blender](text/vrchat/blender.md)
+*   [Unity](text/vrchat/unity.md)
+- - - -
+*   [Links](text/vrchat/links.md)
 
 [Blender]()
 
-  * [Getting Started](text/blender/basics.md)
-  * [Addons](text/blender/addons.md)
-  - - - -
-  * # Basics
-  * [Primitives](text/blender/primitives.md)
+*   [Getting Started](text/blender/basics.md)
+*   [Addons](text/blender/addons.md)
+- - - -
+*   # Basics
+*   [Primitives](text/blender/primitives.md)
 
 [Unity]()
 
-  * [Getting Started](text/unity/basics.md)
-  - - - -
-  * # Basics
-  * [User Interface](text/unity/ui.md)
+*   [Getting Started](text/unity/basics.md)
+- - - -
+*   # Basics
+*   [User Interface](text/unity/ui.md)
 
 [Link Dump](text/linkdump.md)
 
