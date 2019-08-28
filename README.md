@@ -1,5 +1,8 @@
-<b style="font-family:Verdana;font-size:90px;">Knowmore</b>
+<b style="font-size: 7em;color:white;background:black;margin: 1px 5px;padding:5px 30px;border:solid 2px">Knowmore</b>
 
-### Repo for the Knowmore website, hosted through Github pages on the master branch
+## Welcome to the repository for the Knowmore website. The site is hosted through Github pages on the master branch.
 
-#### Visit the website at [<b style="color:lime;font-size:20px;">knowmore.viri.space</b>](http://knowmore.viri.space)
+### If you want to help in the development of this wiki, more information can be found on the home page of the website!
+
+#### Visit the website at
+[<b style="font-size: 2em;color:white;background:black;margin: 1px 5px;padding:5px 8px;border:solid 1px">Knowmore.VIRI.SPACE</b>](http://knowmore.viri.space)

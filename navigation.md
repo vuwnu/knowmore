@@ -8,7 +8,7 @@
 *   [Blender](text/vrchat/blender.md)
 *   [Unity](text/vrchat/unity.md)
 *   # Lists
-*   [Links](text/vrchat/links.md)
+*   [Links](text/vrchat/lists/links.md)
 
 [Blender]()
 
@@ -18,7 +18,7 @@
 *   [Getting Started](text/blender/basics.md)
 *   [Primitives](text/blender/primitives.md)
 *   # Lists
-*   [Addons](text/blender/addons.md)
+*   [Addons](text/blender/lists/addons.md)
 
 [Unity]()
 
