@@ -1,4 +1,4 @@
-![Knowmore](img/logo.png)
+<b style="font-family:Verdana;font-size:90px;">Knowmore</b>
 
 What is this website?
 ----
