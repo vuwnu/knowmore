@@ -12,11 +12,11 @@ Each section of this wiki starts with an Introduction page. This exists to intro
 #### Guides
 These pages aim to teach a specific technique or how to fix a certain problem. They'll be split up into steps to keep guides concise and easy to follow. Each guide shouldn't take more than about 5 mins to read through and should be fairly self contained, only teaching what is needed for that guide.
 #### Lists
-These pages will act as an index for noteworthy content, usually linking to pages off site. An example would be a page that lists all of the most useful Blender addons. These are *not* Top 10/15/20 lists
+These pages will act as an index for noteworthy content, usually linking to pages off site. An example would be a page that lists all of the most useful Blender addons. These are **not** Top 10/15/20 lists. Lists can consist of anything, such as a list of addons, websites,
 
 How can I help?
 ----
-If you wish to make any changes to the wiki yourself, feel free to check out the [<b style="color:deepskyblue;">Github</b>](https://github.com/viri-space/knowmore) page and make a pull request.
+If you wish to make any changes to the wiki yourself, feel free to check out the [**Github**](https://github.com/viri-space/knowmore) page and make a pull request.
 
 This site is being hosted directly through Github pages, so any changes made to the master branch will be immediately shown on the site. Using Github for a project like this makes collaborating a lot easier.
 
@@ -24,17 +24,20 @@ Any help at all is appreciated, though I still have final say on what makes it o
 
 While this wiki hosts information on a wide range of topics I would like to keep the general formatting the same across all articles. I'll be providing a general formatting guide for this wiki as soon as possible. Pages will only be approved if they follow this guide.
 
-If you find an issue with the site you can create an issue on the Github repo at this URL.
+If you find an issue with the site you can create an issue on the Github repo at this URL:
 
-[<b style="color:white;background:black;padding:1px 5px;border:solid 1px">https://github.com/viri-space/knowmore/issues</b>](https://github.com/viri-space/knowmore/issues)
+[**https://github.com/viri-space/knowmore/issues**](https://github.com/viri-space/knowmore/issues)
+
+This is the best way to
 
 Who are you?
 ----
 hey I'm **viri** and this is one of the many projects that I work on in my spare time. If you'd like to know more about me and my various projects then check out [<b style="color:lime;background:black;margin:1px 5px;padding:1px 5px;border:solid 1px">VIRI.SPACE</b>](http://viri.space) where I try to chronicle everything I do.
 
-You can also follow me on [<b style="color:deepskyblue;">Twitter</b>](https://twitter.com/viri_space) for more frequent updates on what I'm doing.
+You can also follow me on [**Twitter**](https://twitter.com/viri_space) for more frequent updates on what I'm doing.
 
 If you want to contact me directly, you can reach me at either of the names below. I can be fairly busy at times but I'll do my best to respond ASAP.
 
 **Twitter:** @viri_space
-<br>**Discord:** viri#0001
+
+**Discord:** viri#0001
