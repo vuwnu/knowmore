@@ -19,25 +19,20 @@ How can I help?
 If you wish to make any changes to the wiki yourself, feel free to check out the [**Github**](https://github.com/viri-space/knowmore) page and make a pull request.
 
 This site is being hosted directly through Github pages, so any changes made to the master branch will be immediately shown on the site. Using Github for a project like this makes collaborating a lot easier.
-
 Any help at all is appreciated, though I still have final say on what makes it on to the wiki. I will comment on any pull requests that I think need changes before they can be merged into the master branch.
 
 While this wiki hosts information on a wide range of topics I would like to keep the general formatting the same across all articles. I'll be providing a general formatting guide for this wiki as soon as possible. Pages will only be approved if they follow this guide.
 
 If you find an issue with the site you can create an issue on the Github repo at this URL:
-
 [**https://github.com/viri-space/knowmore/issues**](https://github.com/viri-space/knowmore/issues)
 
-This is the best way to
+This is the best way to make sure any issue you have is properly seen and addressed.
 
 Who are you?
 ----
 hey I'm **viri** and this is one of the many projects that I work on in my spare time. If you'd like to know more about me and my various projects then check out [<b style="color:lime;background:black;margin:1px 5px;padding:1px 5px;border:solid 1px">VIRI.SPACE</b>](http://viri.space) where I try to chronicle everything I do.
-
 You can also follow me on [**Twitter**](https://twitter.com/viri_space) for more frequent updates on what I'm doing.
-
 If you want to contact me directly, you can reach me at either of the names below. I can be fairly busy at times but I'll do my best to respond ASAP.
 
 **Twitter:** @viri_space
-
 **Discord:** viri#0001
