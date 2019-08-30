@@ -1,7 +1,6 @@
-<b style="font-family:Verdana;font-size:5em;">Knowmore</b>
+# Knowmore
 
-What is this website?
-----
+## What is this website?
 
 This wiki was created with the goal of documenting information and knowledge on a broad variety of subjects in the most concise way possible.
 
@@ -14,8 +13,8 @@ These pages aim to teach a specific technique or how to fix a certain problem. T
 #### Lists
 These pages will act as an index for noteworthy content, usually linking to pages off site. An example would be a page that lists all of the most useful Blender addons. These are **not** Top 10/15/20 lists. Lists can consist of anything, such as a list of addons, websites,
 
-How can I help?
-----
+## How can I help?
+
 If you wish to make any changes to the wiki yourself, feel free to check out the [**Github**](https://github.com/viri-space/knowmore) page and make a pull request.
 
 This site is being hosted directly through Github pages, so any changes made to the master branch will be immediately shown on the site. Using Github for a project like this makes collaborating a lot easier.
@@ -28,8 +27,8 @@ If you find an issue with the site you can create an issue on the Github repo at
 
 This is the best way to make sure any issue you have is properly seen and addressed.
 
-Who are you?
-----
+## Who are you?
+
 hey I'm **viri** and this is one of the many projects that I work on in my spare time. If you'd like to know more about me and my various projects then check out [<b style="color:lime;background:black;margin:1px 5px;padding:1px 5px;border:solid 1px">VIRI.SPACE</b>](http://viri.space) where I try to chronicle everything I do.
 You can also follow me on [**Twitter**](https://twitter.com/viri_space) for more frequent updates on what I'm doing.
 If you want to contact me directly, you can reach me at either of the names below. I can be fairly busy at times but I'll do my best to respond ASAP.
