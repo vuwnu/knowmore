@@ -18,6 +18,7 @@ url: "https://knowmore.viri.space" # the base hostname & protocol for your site
 markdown: kramdown
 
 header_pages:
+  - index.html
   - about.md
   - contribute.md
 
