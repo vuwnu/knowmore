@@ -1,1 +1,0 @@
-![Knowmore](img/logo.png)
