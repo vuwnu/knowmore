@@ -17,6 +17,10 @@ url: "https://knowmore.viri.space" # the base hostname & protocol for your site
 # Markdown settings
 markdown: kramdown
 
+header_pages:
+  - about.md
+  - contribute.md
+
 # Sass settings
 sass:
   add_charset: true

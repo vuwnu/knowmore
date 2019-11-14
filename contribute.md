@@ -1,3 +1,9 @@
+---
+  layout: default
+title: contribute
+permalink: /contribute/
+---
+
 ## How can I help?
 
 If you wish to make any changes to the wiki yourself, feel free to check out the [**Github**](https://github.com/viri-space/knowmore) page and make a pull request.
