@@ -2,6 +2,7 @@
 title: Blender
 layout: default
 permalink: /blender/
+categories: Intro
 tags: intro
 ---
 

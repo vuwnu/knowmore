@@ -2,6 +2,7 @@
 title: Intro
 layout: default
 permalink: /templates/
+categories: 
 tags: intro
 ---
 
