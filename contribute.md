@@ -1,5 +1,5 @@
 ---
-title: contribute
+title: Contribute
 layout: default
 permalink: /contribute/
 ---

@@ -1,7 +1,8 @@
 ---
-title: Blender
+title: Unity
 layout: default
-permalink: /blender/
+permalink: /unity/
+tags: intro
 ---
 
 ## Intro to Blender

@@ -1,4 +1,4 @@
-![Knowmore](img/logo.png)
+![Knowmore](assets/images/logo.png)
 
 ***
 
