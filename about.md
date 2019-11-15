@@ -4,7 +4,6 @@ layout: default
 permalink: /about/
 ---
 
-
 ## What is this website?
 
 This wiki was created with the goal of documenting information and knowledge on a broad variety of subjects in the most concise way possible.
