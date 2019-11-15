@@ -15,6 +15,16 @@ url: "https://knowmore.viri.space" # the base hostname & protocol for your site
 # Markdown settings
 markdown: kramdown
 
+topics: 
+
+defaults:
+  -
+    scope:
+      path: "topics"
+      type: "pages"
+    values:
+      layout: "default"
+
 nav_pages:
   - index.md
   - about.md

@@ -18,10 +18,10 @@
         </tr>
         {%- for page in site.topics -%}
         <tr>
-          <th> {{ page.title }} </th>
-          <th> {{ page.excerpt }} </th>
-          <th> {{ page.tags }} </th>
-          <td><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
+          <th>{{ page.title }}</th>
+          <th>{{ page.excerpt }}</th>
+          <th>{{ page.tags }}</th>
+          <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
         </tr>
         {%- endfor -%}
       </table>
