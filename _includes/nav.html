@@ -3,14 +3,14 @@
   <h1>KNOWMORE</h1>
 </header>
 
-<nav class="topnav" id="myTopnav">
-  <ul>
-    {%- for path in page_paths -%}
-    {%- assign my_page = site.pages | where: "path", path | first -%}
-    {%- if my_page.title -%}
-    <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-    {%- endif -%}
-    {%- endfor -%}
-    <li><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
-  </ul>
+<nav>
+  <div class="topnav" id="myTopnav">
+      {%- for path in page_paths -%}
+      {%- assign my_page = site.pages | where: "path", path | first -%}
+      {%- if my_page.title -%}
+      <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+      {%- endif -%}
+      {%- endfor -%}
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
 </nav>
