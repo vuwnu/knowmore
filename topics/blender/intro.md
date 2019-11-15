@@ -1,6 +1,6 @@
 ---
 title: Blender
-layout: default
+layout: intro
 permalink: /blender/
 categories: Intro
 tags: intro
