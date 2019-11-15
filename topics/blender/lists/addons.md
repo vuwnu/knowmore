@@ -1,5 +1,5 @@
 ---
-title: Blender Addons List
+title: Best Blender Addons
 layout: default
 categories: Blender
 tags: list

@@ -1,11 +1,11 @@
 ---
-title: Intro
-layout: default
+title: Template
+layout: intro
 permalink: /templates/
-categories: 
+categories: Intro
 tags: intro
 ---
 
-## Intro
+# Intro
 
 This is the template for an intro page. This page should give a decent introduction to the topic.
