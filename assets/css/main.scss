@@ -6,6 +6,12 @@
 
 @import 'base/root';
 
+html {
+  margin: 50px;
+  background: rgb(28, 28, 28);
+  color: white;
+}
+
 footer {
   text-align: center;
   background: black;
