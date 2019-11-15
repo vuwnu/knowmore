@@ -19,6 +19,13 @@ footer {
   padding: 5px;
 }
 
+a {
+  color: lightcyan;
+}
+a:hover {
+  color: whitesmoke;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
