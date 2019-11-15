@@ -21,6 +21,7 @@ nav_pages:
   - index.html
   - about.md
   - contribute.md
+  - _posts/topics/topics.html
 
 # Sass settings
 sass:
