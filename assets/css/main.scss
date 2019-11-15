@@ -14,8 +14,30 @@ html {
 
 footer {
   text-align: center;
-  background: black;
-  color: white
+  background: rgb(23, 23, 23);
+  color: white;
+  border: solid grey 1px;
+  padding: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(28, 28, 28);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .topnav {
