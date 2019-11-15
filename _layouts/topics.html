@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+
+  {% include head.html %}
+
+  <body>
+    {% include nav.html %}
+
+    <main class="main" aria-label="Content">
+      {{ content }}
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Tags</th>
+          <th>Guides</th>
+        </tr>
+        {%- for post in site.posts -%}
+        <tr>
+          <th>{%- assign date_format = "%Y-%m-%d" -%}
+          [ {{ post.date | date: date_format }} ] </th>
+          <th><i>[ {{ post.tags }} ]</i></th>
+          <td><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
+        </tr>
+        {%- endfor -%}
+      </table>
+    </main>
+
+    {% include footer.html %}
+  </body>
+
+</html>

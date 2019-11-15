@@ -1,6 +1,6 @@
 ---
-layout: default
 title: contribute
+layout: default
 permalink: /contribute/
 ---
 
