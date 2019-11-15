@@ -42,56 +42,8 @@
 /***************
  *  Font-Face  *
  ***************/
-@font-face {
-  font-family: 'pcSenior';
-  src:
-    local('PC Senior'),
-    url('/fonts/pcsenior.ttf') format('truetype');
-}
 
-@font-face {
-  font-family: 'EXEPixelPerfect';
-  src:
-    local('EXEPixelPerfect'),
-    url('/fonts/EXEPixelPerfect.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'kirbyss';
-  src:
-    local('kirbyss'),
-    url('/fonts/kirbyss.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'ROADWAY';
-  src:
-    local('ROADWAY'),
-    url('/fonts/ROADWAY_.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'orange_kid';
-  src:
-    local('orange_kid'),
-    url('/fonts/orange_kid.ttf') format('truetype');
-}
 
 /************
  *  Custom  *
  ************/
-.logo {
-  font-family: orange_kid;
-  color: limegreen;
-  background: black;
-  margin: 1px 5px;
-  padding: 8px 11px 11px 11px;
-  border: solid 2px;
-  box-shadow: 0px 0px 50px 5px rgba(0,0,0,1);
-  -webkit-box-shadow: 0px 0px 50px 5px rgba(0,0,0,1);
-  -moz-box-shadow: 0px 0px 50px 5px rgba(0,0,0,1);
-}
-
-html {
-  background: url("/img/bg/bg.png") center;
-}
