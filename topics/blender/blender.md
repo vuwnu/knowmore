@@ -2,7 +2,6 @@
 title: Introduction to Blender
 layout: intro
 topic: blender
-permalink: topics/{{ page.topic }}/
 tags: [intro]
 ---
 
