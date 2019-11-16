@@ -1,8 +1,7 @@
 ---
 title: Best Blender Addons
 layout: default
-categories: [blender]
-tags: [list, addons]
+tags: [blender, list, addons]
 
 ---
 
