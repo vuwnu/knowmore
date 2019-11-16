@@ -1,7 +1,7 @@
 ---
 title: Blender
 layout: intro
-permalink: blender/
+permalink: topics/blender/
 categories: Intro
 tags: intro
 ---
