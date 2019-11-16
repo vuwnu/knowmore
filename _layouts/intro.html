@@ -16,16 +16,14 @@
       <table>
         <tr>
           <th>Name</th>
-          <th>Description</th>
           <th>Tags</th>
-          <th>Guides</th>
+          <th>Description</th>
         </tr>
-        {%- for page in site.pages -%}
+        {%- for page in category[1] -%}
         <tr>
-          <td>{{ page.title }}</td>
-          <td>{{ page.excerpt }}</td>
-          <td>{{ page.tags }}</td>
           <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
+          <td>{{ page.tags }}</td>
+          <td>{{ page.excerpt }}</td>
         </tr>
         {%- endfor -%}
       </table>

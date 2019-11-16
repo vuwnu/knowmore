@@ -1,13 +1,12 @@
 ---
 title: Best Blender Addons
 layout: default
-categories: Blender
-tags: list
+categories: [blender]
+tags: [list, addons]
+
 ---
 
-# Blender Addons #
 While Blender has a lot of helpful functionality built into it, these are all addons that are worth trying to improve your Blender work flow. Some of them add minor features while others change how Blender functions entirely.
-***
 
 ### MACHIN3tools ###
 MACHIN3tools is a free, continuously evolving collection of blender tools and pie menus in a single customizable package. It adds a ton of scripts and other additions to Blender that help a lot to increase your workflow.
