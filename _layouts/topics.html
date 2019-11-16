@@ -15,14 +15,16 @@
           <th>Tags</th>
           <th>Guides</th>
         </tr>
-        {%- for page in site.topics -%}
+        {% for categoey in site.categories %}
+        {% for page in category[1] %}
         <tr>
           <th> {{ page.title }} </th>
           <th> {{ page.excerpt }} </th>
           <th> {{ page.tags }} </th>
           <td><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></td>
         </tr>
-        {%- endfor -%}
+        {% endfor %}
+        {% endfor %}
       </table>
     </main>
 
