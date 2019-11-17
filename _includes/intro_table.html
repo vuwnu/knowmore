@@ -6,9 +6,11 @@
   </tr>
   {%- for page in site.pages -%}
   <tr>
-    <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
-    <td>{{ page.tags }}</td>
-    <td>{{ page.excerpt }}</td>
+    <a href="{{ page.url | relative_url }}">
+      <td>{{ page.title | escape }}</td>
+      <td>{{ page.tags }}</td>
+      <td>{{ page.excerpt }}</td>
+    </a>
   </tr>
   {%- endfor -%}
 </table>
