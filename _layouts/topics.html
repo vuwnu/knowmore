@@ -17,9 +17,9 @@
           <th>Name</th>
           <th>Description</th>
           <th>Tags</th>
-          <th>Guides</th>
         </tr>
-        {% for page in site.pages %}
+        {% assign sorted-pages = site.pages | where: "topic","intro" %}
+        {% for page in sorted-pages %}
         <tr>
           <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
           <th> {{ page.excerpt }} </th>
