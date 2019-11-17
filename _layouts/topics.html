@@ -16,14 +16,12 @@
         <tr>
           <th>Name</th>
           <th>Description</th>
-          <th>Tags</th>
         </tr>
-        {% assign sorted-pages = site.pages | where: "topic","intro" %}
+        {% assign sorted-pages = site.pages | where: "layout","intro" %}
         {% for page in sorted-pages %}
         <tr>
           <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
           <th> {{ page.excerpt }} </th>
-          <th> {{ page.tags }} </th>
         </tr>
         {% endfor %}
       </table>
