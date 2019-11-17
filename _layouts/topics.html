@@ -20,7 +20,7 @@
         {% assign sorted-pages = site.pages | where: "layout","intro" %}
         {% for page in sorted-pages %}
         <tr>
-          <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
+          <td><a href="{{ page.url | relative_url }}">{{ page.title | remove: "Introduction to" }}</a></td>
           <th> {{ page.excerpt }} </th>
         </tr>
         {% endfor %}
