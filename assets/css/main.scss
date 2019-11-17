@@ -20,7 +20,10 @@ header {
 }
 
 main img {
-  max-width: 500px;
+  max-width: 300px;
+  float: right;
+  padding: 20px;
+  margin: 20px;
 }
 
 footer {
@@ -45,7 +48,7 @@ tr:nth-child(even) {
 }
 
 th {
-  background-color: #4CAF50;
+  background-color: #333;
   color: white;
 }
 
