@@ -2,6 +2,7 @@
 title: Best Blender Addons
 layout: default
 topic: blender
+type: list
 tags: [blender, list, addons]
 ---
 
