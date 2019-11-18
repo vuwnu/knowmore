@@ -4,7 +4,7 @@
     <th>Tags</th>
     <th>Description</th>
   </tr>
-  {% assign sorted-pages = site.pages | where: "topic","page.table" %}
+  {% assign sorted-pages = site.pages | where: "topic",title %}
   {% for page in sorted-pages %}
   <tr>
     <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
