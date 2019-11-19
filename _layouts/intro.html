@@ -7,9 +7,11 @@
     {% include nav.html %}
 
     <main class="main" aria-label="Content">
+      <a href="/topics"></a>
+
       <h1>{{ page.title | capitalize }}</h1>
 
-      <img src="/topics/{{ page.title }}/img.png" alt="Image">
+      <img src="/assets/images/topics/{{ page.title }}.png" alt="Image">
 
       {{ content }}
 

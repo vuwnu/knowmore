@@ -4,12 +4,13 @@
     <th>Tags</th>
     <th>Description</th>
   </tr>
-  {% assign sorted-pages = site.pages | where: "topic",title %}
-  {% for page in sorted-pages %}
-  <tr>
-    <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
-    <td>{{ page.tags }}</td>
-    <td>{{ page.excerpt }}</td>
-  </tr>
-  {%- endfor -%}
+  {% for page in site.pages %}
+    {% if page.topic == title %}
+      <tr>
+        <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
+        <td>{{ page.tags }}</td>
+        <td>{{ page.excerpt }}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
 </table>
