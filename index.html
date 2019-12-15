@@ -1,9 +1,10 @@
 ---
-title: blender
-layout: intro
+title: Home
+layout: index
+permalink: /
 ---
 
-Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, and computer games.
+This is the home page for the Knowmore website. You can use the navigation bar above to visit different pages of this website!
 
 <table>
   <tr>
@@ -12,7 +13,7 @@ Blender is a free and open-source 3D computer graphics software toolset used for
     <th>Tags</th>
     <th>Description</th>
   </tr>
-  {% assign sorted-pages = site.pages | where: "topic","blender" %}
+  {% assign sorted-pages = site.pages | where: "layout","page" %}
   {% for page in sorted-pages %}
   <tr>
     <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>

@@ -1,6 +1,6 @@
 ---
 title: List Template
-layout: default
+layout: page
 topic: template
 type: list
 ---

@@ -1,6 +1,6 @@
 ---
 title: Guide Template
-layout: default
+layout: page
 topic: template
 type: guide
 ---

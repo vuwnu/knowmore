@@ -28,7 +28,7 @@ defaults:
 nav_pages:
   - about.md
   - contribute.md
-  - topics/topics.md
+  - topics.md
 
 # Sass settings
 sass:

@@ -1,6 +1,6 @@
 ---
 title: Best Blender Addons
-layout: default
+layout: page
 topic: blender
 type: list
 ---

@@ -1,6 +1,6 @@
 ---
 title: VRChat Links
-layout: default
+layout: page
 topic: vrchat
 type: list
 tags: [vrchat, list]
