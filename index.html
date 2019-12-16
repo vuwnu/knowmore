@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Knowmore
 layout: index
 permalink: /
 ---
@@ -11,6 +11,7 @@ permalink: /
 <table>
   <tr>
     <th>Name</th>
+    <th>Topic</th>
     <th>Type</th>
     <th>Tags</th>
     <th>Description</th>
@@ -19,6 +20,7 @@ permalink: /
   {% for page in sorted-pages %}
   <tr>
     <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
+    <td>{{ page.topic }}</td>
     <td>{{ page.type }}</td>
     <td>{{ page.tags }}</td>
     <td>{{ page.excerpt }}</td>
