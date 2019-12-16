@@ -21,9 +21,8 @@ header {
 h1 {
   text-align: center;
 }
-main img {
+.guide-img {
   max-width: 300px;
-  float: right;
   padding: 20px;
   margin: 20px;
 }
@@ -55,7 +54,8 @@ th {
 }
 
 .logo {
-  width: 150px;
+  max-width: 300px;
+  margin: 20px;
 }
 
 a {
