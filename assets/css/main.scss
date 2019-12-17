@@ -18,12 +18,17 @@ body {
 header {
   text-align: center;
 }
-h1 {
+h1, h2, h3, h4 {
   text-align: center;
 }
-.guide-img {
+.main img {
   max-width: 300px;
   padding: 20px;
+  margin: 20px;
+}
+.logo {
+  max-width: 600px;
+  padding: 0px;
   margin: 20px;
 }
 
@@ -53,10 +58,6 @@ th {
   color: white;
 }
 
-.logo {
-  max-width: 300px;
-  margin: 20px;
-}
 
 a {
   color: lightcyan;
