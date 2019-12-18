@@ -22,8 +22,11 @@ header {
 h1, h2, h3, h4 {
   text-align: center;
 }
+p {
+  margin: 1em;
+}
 .main img {
-  max-width: 500px;
+  max-width: 800px;
   margin: 20px;
 }
 img.logo {
