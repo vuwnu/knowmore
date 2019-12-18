@@ -8,13 +8,17 @@ permalink: /
 
 <br>
 
+<input type="text" id="filterInput" onkeyup="filterTable()" placeholder="Filter the table..">
+
+<br>
+
 <div class="table-container">
-<table>
+<table id="projectTable">
   <tr>
-    <th>Name</th>
-    <th>Topic</th>
-    <th>Type</th>
-    <th>Tags</th>
+    <th onclick="sortTable(0)">Name</th>
+    <th onclick="sortTable(1)">Topic</th>
+    <th onclick="sortTable(2)">Type</th>
+    <th >Tags</th>
     <th>Description</th>
   </tr>
   {% assign sorted-pages = site.pages | where: "layout","page" %}
