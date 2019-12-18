@@ -1,8 +1,7 @@
 ---
-title: Link Dump
 layout: page
+title: Link Dump
 topic: nothing
-type: list
 tags: [list]
 ---
 

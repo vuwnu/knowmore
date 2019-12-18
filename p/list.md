@@ -1,8 +1,7 @@
 ---
-title: List Template
 layout: page
+title: List Template
 topic: template
-type: list
 ---
 
 # List Title

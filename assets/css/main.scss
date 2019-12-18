@@ -52,6 +52,12 @@ footer {
   background: linear-gradient(180deg, rgba(41, 41, 41, 1) 0%, #343434 21%, #4a4a4a 100%);
   padding: 5px;
 }
+.page-head {
+  background: #333;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
 
 table {
   border-collapse: collapse;
@@ -196,7 +202,7 @@ a:hover {
 
   table tr td:nth-of-type(1) {
     border: 0;
-    background: 0;
+    background: #333;
   }
 
   table tr td {

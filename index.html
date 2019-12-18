@@ -17,8 +17,7 @@ permalink: /
   <tr>
     <th onclick="sortTable(0)">Name</th>
     <th onclick="sortTable(1)">Topic</th>
-    <th onclick="sortTable(2)">Type</th>
-    <th >Tags</th>
+    <th>Tags</th>
     <th>Description</th>
   </tr>
   {% assign sorted-pages = site.pages | where: "layout","page" %}
@@ -26,7 +25,6 @@ permalink: /
   <tr>
     <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
     <td>{{ page.topic }}</td>
-    <td>{{ page.type }}</td>
     <td>{{ page.tags }}</td>
     <td>{{ page.excerpt }}</td>
   </tr>

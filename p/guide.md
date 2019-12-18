@@ -2,7 +2,6 @@
 title: Guide Template
 layout: page
 topic: template
-type: guide
 ---
 
 # Guide Title

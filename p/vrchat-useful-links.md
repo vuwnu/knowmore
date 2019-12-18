@@ -1,8 +1,7 @@
 ---
-title: VRChat Links
 layout: page
+title: Useful Links for VRChat Content Creators
 topic: VRChat
-type: list
 tags: [vrchat, list]
 ---
 
