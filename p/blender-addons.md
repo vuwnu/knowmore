@@ -1,7 +1,7 @@
 ---
 title: Best Blender Addons
 layout: page
-topic: Blender
+tags: [Blender, List, Addons]
 ---
 
 While Blender has a lot of helpful functionality built into it, these are all addons that are worth trying to improve your Blender work flow. Some of them add minor features while others change how Blender functions entirely.
