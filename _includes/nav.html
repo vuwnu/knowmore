@@ -1,7 +1,7 @@
 {%- assign page_paths = site.nav_pages | default: default_paths -%}
 <nav>
   <div class="topnav" id="myTopnav">
-    <a href="/">Home</a>
+    <a href="/"><img src="/assets/images/home.png" alt="home"></a>
     {%- for path in page_paths -%}
     {%- assign my_page = site.pages | where: "path", path | first -%}
     {%- if my_page.title -%}
