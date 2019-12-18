@@ -23,7 +23,7 @@ permalink: /
   {% for page in sorted-pages %}
   <tr>
     <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
-    <td>{{ page.tags | split: ", " }}</td>
+    <td>{{ page.tags | join: ', ' }}</td>
     <td>{{ page.excerpt }}</td>
   </tr>
   {%- endfor -%}
