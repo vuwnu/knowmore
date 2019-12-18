@@ -14,6 +14,7 @@ html {
 }
 body {
   margin: 10px;
+  background: #292929;
 }
 header {
   text-align: center;
@@ -39,6 +40,7 @@ footer {
 table {
   border-collapse: collapse;
   width: 100%;
+  table-layout: fixed;
 }
 
 th, td {
