@@ -32,7 +32,8 @@ p {
   margin: auto;
 }
 img.logo {
-  margin: 20px;
+  display: block;
+  margin: auto;
 }
 .home {
   width: 1.2em;
@@ -45,7 +46,7 @@ a.home-padding {
 
 footer {
   text-align: center;
-  background: #333;
+  background: linear-gradient(180deg, rgba(41,41,41,1) 0%, rgba(55,55,55,1) 21%, rgba(110,110,110,1) 100%);
   color: white;
   padding: 5px;
 }
@@ -100,7 +101,7 @@ a:hover {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background: linear-gradient(0deg, rgba(41,41,41,1) 0%, rgba(55,55,55,1) 21%, rgba(110,110,110,1) 100%);
 }
 
 .topnav a {
