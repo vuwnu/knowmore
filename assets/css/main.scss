@@ -189,7 +189,7 @@ a:hover {
     margin-bottom: .625em;
   }
 
-  table tr td:nth-of-type(2) {
+  table th {
     display: none;
   }
 
@@ -198,8 +198,9 @@ a:hover {
     background: 0;
   }
 
-  table td {
+  table tr td {
     display: block;
+    text-align: center;
   }
 
   table td::before {
