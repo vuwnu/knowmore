@@ -32,6 +32,7 @@ p {
   margin: auto;
 }
 img.logo {
+  max-width: 600px;
   display: block;
   margin: auto;
 }
@@ -46,7 +47,7 @@ a.home-padding {
 
 footer {
   text-align: center;
-  background: linear-gradient(180deg, rgba(41,41,41,1) 0%, rgba(55,55,55,1) 21%, rgba(110,110,110,1) 100%);
+  background: linear-gradient(180deg, rgba(41, 41, 41, 1) 0%, #343434 21%, #4a4a4a 100%);
   color: white;
   padding: 5px;
 }
@@ -71,6 +72,21 @@ th {
   color: white;
 }
 
+
+.topnav {
+  overflow: hidden;
+  background: linear-gradient(0deg, rgba(41, 41, 41, 1) 0%, #343434 21%, #4a4a4a 100%);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
 
 a {
   color: lightcyan;
@@ -97,21 +113,6 @@ a:hover {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
-
-.topnav {
-  overflow: hidden;
-  background: linear-gradient(0deg, rgba(41,41,41,1) 0%, rgba(55,55,55,1) 21%, rgba(110,110,110,1) 100%);
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 22px;
 }
 
 .active {
@@ -169,6 +170,48 @@ a:hover {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+@media screen and (max-width: 600px) {
+  table thead {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: none;
+  }
+
+  table tr {
+    display: block;
+    margin-bottom: .625em;
+  }
+
+  table tr td:nth-of-type(2) {
+    display: none;
+  }
+
+  table tr td:nth-of-type(1) {
+    border: 0;
+    background: 0;
+  }
+
+  table td {
+    display: block;
+  }
+
+  table td::before {
+    float: left;
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }
 
 @media screen and (max-width: 600px) {
