@@ -70,7 +70,7 @@ footer p {
 table {
   border-collapse: collapse;
   width: 100%;
-  table-layout: fixed;
+  table-layout: auto;
 }
 
 th, td {
@@ -202,6 +202,7 @@ a:hover {
   table tr {
     display: block;
     margin-bottom: .625em;
+    background-color: #262626;
   }
 
   table th {
