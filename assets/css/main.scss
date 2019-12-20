@@ -85,6 +85,8 @@ tr:nth-child(even) {
 th {
   background-color: #333;
   color: white;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 
@@ -104,7 +106,8 @@ th {
 }
 
 a {
-  color: lightcyan;
+  color: #4ebeff;
+  text-decoration: none;
 }
 a:hover {
   color: whitesmoke;
@@ -218,17 +221,17 @@ a:hover {
     display: block;
     text-align: center;
   }
-
-  table td::before {
-    float: left;
-    /*
-    * aria-label has no advantage, it won't be read inside a table
-    content: attr(aria-label);
-    */
-    content: attr(data-label);
-    text-transform: uppercase;
-    font-weight: bold;
-  }
+  //
+  // table td::before {
+  //   float: left;
+  //   /*
+  //   * aria-label has no advantage, it won't be read inside a table
+  //   content: attr(aria-label);
+  //   */
+  //   content: attr(data-label);
+  //   text-transform: uppercase;
+  //   font-weight: bold;
+  // }
 }
 
 @media screen and (max-width: 600px) {
