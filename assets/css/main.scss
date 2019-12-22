@@ -48,6 +48,7 @@ a.home-padding {
 .container {
   margin: 0 20px;
   display: flex;
+  flex-wrap: wrap;
 }
 footer {
   text-align: center;
@@ -66,6 +67,14 @@ footer p {
 }
 .page-head p {
   text-align: center;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 30px;
+  overflow: visible;
+  border: 0;
+  background: linear-gradient(180deg, #292929 0%, #1c1c1c 50%, #292929 100%);
 }
 
 table {

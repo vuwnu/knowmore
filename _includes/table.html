@@ -1,10 +1,14 @@
 <br>
 
 <div class="container">
-  <p>Title: </p>
-  <input type="text" id="filterTitle" onkeyup="filterTitle()" placeholder="Filter title..">
-  <p>Tags: </p>
-  <input type="text" id="filterTags" onkeyup="filterTags()" placeholder="Filter tags..">
+  <div>
+    <p>Title: </p>
+    <input type="text" id="filterTitle" onkeyup="filterTitle()" placeholder="Filter title..">
+  </div>
+  <div>
+    <p>Tags: </p>
+    <input type="text" id="filterTags" onkeyup="filterTags()" placeholder="Filter tags..">
+  </div>
 </div>
 
 <br>
@@ -12,16 +16,20 @@
 <div class="container">
 <table id="projectTable">
   <tr>
+    <th>Date</th>
     <th onclick="sortTable(0)">Name</th>
+    <th>Topic</th>
     <th onclick="sortTable(1)">Tags</th>
     <th>Description</th>
   </tr>
   {% assign sorted-pages = site.pages | where: "layout","page" %}
   {% for page in sorted-pages %}
   <tr>
-    <td data-label="Name"><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
-    <td data-label="Tags">{{ page.tags | join: ', ' }}</td>
-    <td data-label="Description">{{ page.description }}</td>
+    <td>{{ page.date }}</td>
+    <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
+    <td>{{ page.topic }}</td>
+    <td>{{ page.tags | join: ', ' }}</td>
+    <td>{{ page.description }}</td>
   </tr>
   {%- endfor -%}
 </table>

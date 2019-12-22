@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Best Free Blender Addons
+date: 10/12/2019
+topic: Blender
 tags: [Blender, List, Addons]
 description: Some of the most useful free addons for Blender to improve workflow
 ---
