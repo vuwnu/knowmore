@@ -6,6 +6,7 @@
 
 @import 'base/root';
 
+
 // Markdown Styling
 html {
   margin: auto;
@@ -17,7 +18,7 @@ body {
   margin: 10px;
   background: #292929;
 }
-h1, h2, h3, h4 {
+main h1, h2, h3, h4 {
   text-align: center;
   background: #333;
   color: white;
@@ -25,15 +26,26 @@ h1, h2, h3, h4 {
   padding: 20px;
   text-align: center;
 }
+main a {
+  color: #4ebeff;
+  text-decoration: none;
+  max-width: 800px;
+  width: 80vw;
+  display: block;
+  margin: auto;
+  text-align: center;
+  background: #333;
+  border: 10px solid #333;
+}
+main p {
+  margin: 1em;
+  text-align: justify;
+}
 
 //
 
 header {
   text-align: center;
-}
-p {
-  margin: 1em;
-  text-align: justify;
 }
 .main img {
   max-width: 800px;
@@ -67,6 +79,9 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+// Page Header
 .page-head {
   background: #333;
   color: white;
@@ -76,12 +91,18 @@ footer p {
 }
 .page-head div:nth-of-type(1) {
   text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 10px;
 }
 .page-head div:nth-of-type(2) {
   text-align: center;
+  font-weight: 600;
+  margin: 10px;
 }
 .page-head div:nth-of-type(3) {
   text-align: center;
+  margin: 10px;
 }
 
 
