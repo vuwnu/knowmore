@@ -14,7 +14,9 @@
         <div>{{ page.tags | join: ', ' }}</div>
       </div>
 
-      {{ content }}
+      <div class="page-content">
+        {{ content }}
+      </div>
     </main>
 
     {% include footer.html %}

@@ -6,8 +6,6 @@
 
 @import 'base/root';
 
-
-// Markdown Styling
 html {
   margin: auto;
   background: rgb(28, 28, 28);
@@ -18,7 +16,10 @@ body {
   margin: 10px;
   background: #292929;
 }
-main h1, h2, h3, h4 {
+
+
+// Content Styling
+.page-content h1, h2, h3, h4 {
   text-align: center;
   background: #333;
   color: white;
@@ -26,7 +27,7 @@ main h1, h2, h3, h4 {
   padding: 20px;
   text-align: center;
 }
-main a {
+.page-content a {
   color: #4ebeff;
   text-decoration: none;
   max-width: 800px;
@@ -37,9 +38,34 @@ main a {
   background: #333;
   border: 10px solid #333;
 }
-main p {
+.page-content p {
   margin: 1em;
   text-align: justify;
+}
+
+
+// Head Styling
+.page-head {
+  background: #333;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.page-head div:nth-of-type(1) {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 10px;
+}
+.page-head div:nth-of-type(2) {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px;
+}
+.page-head div:nth-of-type(3) {
+  text-align: center;
+  margin: 10px;
 }
 
 //
@@ -81,29 +107,6 @@ footer p {
 }
 
 
-// Page Header
-.page-head {
-  background: #333;
-  color: white;
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
-}
-.page-head div:nth-of-type(1) {
-  text-align: center;
-  font-size: 2em;
-  font-weight: 600;
-  margin: 10px;
-}
-.page-head div:nth-of-type(2) {
-  text-align: center;
-  font-weight: 600;
-  margin: 10px;
-}
-.page-head div:nth-of-type(3) {
-  text-align: center;
-  margin: 10px;
-}
 
 
 hr {
