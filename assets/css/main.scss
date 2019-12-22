@@ -16,10 +16,13 @@ body {
   margin: 10px;
   background: #292929;
 }
+p {
+  margin: 1em;
+}
 
 
 // Content Styling
-.page-content h1, h2, h3, h4 {
+.page-content h1,.page-content h2, .page-content h3,.page-content h4 {
   text-align: center;
   background: #333;
   color: white;
