@@ -23,7 +23,7 @@ These pages will act as an index for noteworthy content, usually linking to page
 
 ## Who are you?
 
-hey I'm **viri** and this is one of the many projects that I work on in my spare time. If you'd like to know more about me and my various projects then check out [VIRI.SPACE](http://viri.space) where I try to chronicle everything I do.
+hey I'm **viri** and this is one of the many projects that I work on in my spare time. If you'd like to know more about me and my various projects then check out [Vaynwork](https://vaynwork.com) where I try to chronicle everything I do.
 You can also follow me on [**Twitter**](https://twitter.com/viri_space) for more frequent updates on what I'm doing.
 If you want to contact me directly, you can reach me at either of the names below. I can be fairly busy at times but I'll do my best to respond ASAP.
 
