@@ -30,9 +30,9 @@
    *  Fonts  *
    ***********/
 
-  --primary-font: 'EXEPixelPerfect', monospace;
-  --secondary-font: 'pcSenior', monospace;
-  --header-font: 'orange_kid', monospace;
+  --primary-font: 'Verdana', monospace;
+  --secondary-font: 'Arial', monospace;
+  --header-font: 'Geneva', monospace;
   --font-size: var(--responsive-font-size);
   /************
    *  Images  *

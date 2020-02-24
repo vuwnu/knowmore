@@ -2,26 +2,26 @@
 <html lang="{{ site.lang | default: page.lang | default: 'en' }}">
 
   {% include head.html %}
+  <div class="layout-single">
+    <body>
+      {% include nav.html %}
+    <div class="xyz__main">
+      <main class="main" aria-label="Content">
 
-  <body>
-    {% include nav.html %}
+        <div class="page-head">
+          <div class="title">{{ page.title }}</div>
+          <div>Posted {{ page.date }}</div>
+          <div>{{ page.topic }}</div>
+          <div class="tag-head">Tags</div>
+          <div class="tags">{{ page.tags | join: ', ' }}</div>
+        </div>
 
-    <main class="main" aria-label="Content">
-
-      <div class="page-head">
-        <div class="title">{{ page.title }}</div>
-        <div>Posted {{ page.date }}</div>
-        <div>{{ page.topic }}</div>
-        <div class="tag-head">Tags</div>
-        <div class="tags">{{ page.tags | join: ', ' }}</div>
-      </div>
-
-      <div class="xyz-md">
-        {{ content }}
-      </div>
-    </main>
-
-    {% include footer.html %}
-  </body>
-
+        <div class="xyz-md">
+          {{ content }}
+        </div>
+      </main>
+    </div>
+      {% include footer.html %}
+    </body>
+  </div>
 </html>
