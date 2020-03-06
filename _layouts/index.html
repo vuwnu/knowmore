@@ -3,20 +3,21 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="xyz layout-single">
     <div class="xyz__header">
       <h1><img class="logo" src="/assets/images/logo.png" alt="Knowmore"></h1>
     </div>
 
     {% include nav.html %}
+    <div class="xyz__main">
+      <main class="main" aria-label="Content">
 
-    <main class="main" aria-label="Content">
+        {{ content }}
 
-      {{ content }}
+        {% include table.html %}
 
-      {% include table.html %}
-
-    </main>
+      </main>
+    </div>
 
     {% include footer.html %}
   </body>
