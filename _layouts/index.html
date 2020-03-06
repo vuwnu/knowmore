@@ -8,14 +8,13 @@
       <h1><img class="logo" src="/assets/images/logo.png" alt="Knowmore"></h1>
     </div>
 
-    {% include nav.html %}
     <div class="xyz__main">
       <main class="main" aria-label="Content">
+        {% include nav.html %}
 
         {{ content }}
 
         {% include table.html %}
-
       </main>
     </div>
 
