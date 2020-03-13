@@ -47,7 +47,11 @@
 /************
  *  Custom  *
  ************/
- 
+
 .xyz__main {
   background: #292929;
+}
+
+.xyz__footer {
+  margin: 0px;
 }
