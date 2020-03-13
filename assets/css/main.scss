@@ -57,8 +57,10 @@ header {
 }
 img.logo {
   max-width: 600px;
+  width: 90%;
   display: block;
   margin: auto;
+  min-width: 200px;
 }
 .home {
   width: 1.2em;
