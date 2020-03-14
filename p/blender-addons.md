@@ -7,8 +7,6 @@ tags: [blender, list, addons, 3d-modelling]
 description: Some of the most useful free addons for Blender to improve workflow
 ---
 
-{:toc}
-
 While Blender has a lot of helpful functionality built into it, these are all addons that are worth trying to improve your Blender work flow. Some of them add minor features while others change how Blender functions entirely.
 
 ### MACHIN3tools ###
@@ -30,3 +28,6 @@ Blender's UV Editor tool that reshapes UV selection into grid. This addon will a
 This addon gives Blender multiple new options for creating and manipulating UVs. This addon helps immensely for speeding up the process of creating UVs.
 
 <a class="h-link" href="https://github.com/nutti/Magic-UV/releases">Download on Github</a>
+
+[Download on Github](https://github.com/nutti/Magic-UV/releases)
+{: .h-link}
