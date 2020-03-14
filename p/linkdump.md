@@ -9,21 +9,18 @@ This is a collection of links that I find worth reading. I've divided them into 
 
 Unity
 ---
-
-  * [WeaverDev Blog](https://www.weaverdev.io/)
-  * [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA)
+[WeaverDev Blog](https://www.weaverdev.io/){: .h-link}
+[Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA){: .h-link}
 
 Blender
 ---
-  * [Lazy Blender Tutorials](https://www.youtube.com/channel/UCbmxZRQk-X0p-TOxd6PEYJA)
-  * [CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg)
+[Lazy Blender Tutorials](https://www.youtube.com/channel/UCbmxZRQk-X0p-TOxd6PEYJA){: .h-link}
+[CGMatter](https://www.youtube.com/channel/UCy1f4m64dwCwk8CBZ_vHfPg){: .h-link}
 
 Javascript
 ---
-
-  * [Javascript Kit](http://www.javascriptkit.com/)
+[Javascript Kit](http://www.javascriptkit.com/){: .h-link}
 
 CSS
 ---
-
-  * [Creating a CSS Framework](https://www.codementor.io/ismail16smakosh23/my-short-journey-building-unnamed-my-own-css-framework-csqi9o679)
+[Creating a CSS Framework](https://www.codementor.io/ismail16smakosh23/my-short-journey-building-unnamed-my-own-css-framework-csqi9o679){: .h-link}
