@@ -12,14 +12,14 @@ While Blender has a lot of helpful functionality built into it, these are all ad
 ### MACHIN3tools ###
 MACHIN3tools is a free, continuously evolving collection of blender tools and pie menus in a single customizable package. It adds a ton of scripts and other additions to Blender that help a lot to increase your workflow.
 
-[Download on Gumroad](https://gumroad.com/l/MACHIN3tools)
+<a class="h-link" href="https://gumroad.com/l/MACHIN3tools">Download on Gumroad</a>
 
 ![](https://i.ytimg.com/vi/WdqpxrTLnOc/maxresdefault.jpg)
 
 ### UV Squares ###
 Blender's UV Editor tool that reshapes UV selection into grid. This addon will allow you to turn your unwrapped UVs into a perfect grid where each face has the same area. Great tool for making quick, clean and organized UVs.
 
-[Download on Github](https://github.com/Radivarig/UvSquares)
+<a class="h-link" href="https://github.com/Radivarig/UvSquares">Download on Github</a>
 
 ![](https://d1231c29xbpffx.cloudfront.net/store/productimage/3400/image/xlarge-31709f71d53e164a3858ae0584896b06.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAITK2SDMAUIGKRQTA%2F20190828%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190828T181443Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=422cd62d9498dd28e3b0cd47c5eb880844e87b77f0c59ddc860d101a431d5c29)
 
@@ -27,4 +27,4 @@ Blender's UV Editor tool that reshapes UV selection into grid. This addon will a
 ### Magic UV ###
 This addon gives Blender multiple new options for creating and manipulating UVs. This addon helps immensely for speeding up the process of creating UVs.
 
-[Download on Github](https://github.com/nutti/Magic-UV/releases)
+<a class="h-link" href="https://github.com/nutti/Magic-UV/releases">Download on Github</a>
