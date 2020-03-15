@@ -47,6 +47,7 @@ header {
   display: block;
   margin: auto;
 }
+
 img.logo {
   max-width: 600px;
   width: 90%;
@@ -54,6 +55,14 @@ img.logo {
   margin: auto;
   min-width: 200px;
 }
+.logonav {
+  max-width: 600px;
+  width: 90%;
+  display: block;
+  margin: auto;
+  min-width: 200px;
+}
+
 .home {
   width: 1.2em;
   padding: 0;
@@ -260,6 +269,9 @@ a:hover {
   }
   .topnav a.icon {
     float: right;
+    display: block;
+  }
+  .topnav .logonav {
     display: block;
   }
 }
