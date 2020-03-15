@@ -41,12 +41,12 @@ html {
 header {
   text-align: center;
 }
-.main img {
-  max-width: 800px;
-  width: 80vw;
-  display: block;
-  margin: auto;
-}
+// .main img {
+//   max-width: 800px;
+//   width: 80vw;
+//   display: block;
+//   margin: auto;
+// }
 
 img.logo {
   max-width: 600px;
@@ -56,11 +56,12 @@ img.logo {
   min-width: 200px;
 }
 .logonav {
-  max-width: 600px;
-  width: 90%;
+  max-width: 224px;
+  width: 55%;
   display: block;
   margin: auto;
-  min-width: 200px;
+  padding: 20px;
+  min-width: 130px;
 }
 
 .home {
@@ -273,6 +274,9 @@ a:hover {
   }
   .topnav .logonav {
     display: block;
+  }
+  img.logo {
+    display: none;
   }
 }
 

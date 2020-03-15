@@ -3,7 +3,6 @@
   <img class="logo" src="/assets/images/logo.png" alt="Knowmore">
   <div class="topnav" id="myTopnav">
     <a href="/" style="padding: 10px 16px;"><img style="width:40px;" class="home" src="/assets/images/home.png" alt="home"></a>
-    <img class="logonav" src="/assets/images/logo.png" alt="Knowmore">
     {%- for path in page_paths -%}
     {%- assign my_page = site.pages | where: "path", path | first -%}
     {%- if my_page.title -%}
@@ -11,5 +10,6 @@
     {%- endif -%}
     {%- endfor -%}
     <a href="javascript:void(0);" style="font-size:23px;" class="icon" onclick="navButton()">&#9776;</a>
+    <img class="logonav" src="/assets/images/logo.png" alt="Knowmore">
   </div>
 </nav>
