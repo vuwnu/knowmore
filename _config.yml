@@ -26,6 +26,7 @@ defaults:
       layout: "default"
 
 nav_pages:
+  - contents.md
   - about.md
   - contribute.md
 
