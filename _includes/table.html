@@ -17,8 +17,6 @@
 <table id="projectTable">
   <tr>
     <th onclick="sortTable(0)">Name</th>
-    <th>Date</th>
-    <th>Topic</th>
     <th onclick="sortTable(1)">Tags</th>
     <th>Description</th>
   </tr>
@@ -26,8 +24,6 @@
   {% for page in sorted-pages %}
   <tr>
     <td><a href="{{ page.url | relative_url }}">{{ page.title | escape }}</a></td>
-    <td>{{ page.date }}</td>
-    <td>{{ page.topic }}</td>
     <td>{{ page.tags | join: ', ' }}</td>
     <td>{{ page.description }}</td>
   </tr>
