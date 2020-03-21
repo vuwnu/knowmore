@@ -7,14 +7,7 @@
     <main class="main" aria-label="Content">
       {% include nav.html %}
 
-      <div class="page-head">
-        <div class="title">{{ page.title }}</div>
-        <div>Posted {{ page.date }}</div>
-        <div>{{ page.topic }}</div>
-        <div class="tag-head">Tags</div>
-        <div class="tags">{{ page.tags | join: ', ' }}</div>
-        <div><a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}">Edit this page on GitHub</a></div>
-      </div>
+      {% include page_head.html %}
 
       <div class="xyz-md">
         {{ content }}
