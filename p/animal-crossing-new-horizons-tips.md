@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Animal Crossing: New Horizons Tips
+title: Animal Crossing New Horizons Tips
 date: 30/3/2020
 topic: Game
 tags: [game, list, tips]
