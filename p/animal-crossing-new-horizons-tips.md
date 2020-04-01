@@ -16,3 +16,7 @@ Below are all the tips and information I've gathered to help you progress throug
 ### Golden Net
 
 ### Golden Fishing Rod
+
+## Crafting
+
+When your villager is crafting you can tap the A button to make them craft faster
