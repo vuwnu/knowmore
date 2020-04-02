@@ -13,3 +13,5 @@ All of the below tips are related to avatar creation
 
 ### World Space Objects
 Placing an object in world space can be done using Unity's constraint systems
+
+## Worlds
