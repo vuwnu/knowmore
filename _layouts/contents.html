@@ -3,17 +3,18 @@
 
   {% include head.html %}
 
-<body class="xyz layout-single">
-  <div class="xyz__main">
-    <main class="main" aria-label="Content">
-      {% include nav.html %}
-      <div class="xyz-md">
-        {{ content }}
-        {% include table.html %}
-      </div>
-    </main>
-  </div>
+<body class="xyz">
+
+  <main class="main" aria-label="Content">
+    {% include nav.html %}
+    <div class="xyz-md">
+      {{ content }}
+      {% include table.html %}
+    </div>
+  </main>
+
   {% include footer.html %}
+
 </body>
 
 </html>
