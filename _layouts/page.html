@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: page.lang | default: 'en' }}">
 
-  {% include head.html %}
-  <body class="xyz layout-single">
-  <div class="xyz__main">
-    <main class="main" aria-label="Content">
-      {% include nav.html %}
+{% include head.html %}
 
-      {% include page_head.html %}
+<body class="xyz">
 
-      <div class="xyz-md">
-        {% include toc.html html=content %}
-        {{ content }}
-      </div>
-    </main>
+<main class="main" aria-label="Content">
+  
+  {% include nav.html %}
+
+  {% include page_head.html %}
+
+  <div class="xyz-md">
+    {% include toc.html html=content %}
+    {{ content }}
   </div>
-    {% include footer.html %}
-  </body>
+</main>
+
+{% include footer.html %}
+
+</body>
 </html>
