@@ -15,8 +15,8 @@
 
   /* Border */
   --border-type: solid;
-  --border-thickness: 1px;
-  --border-radius: 5px;
+  --border-thickness: 0px;
+  --border-radius: 0px;
   --border-color: dimgrey;
 
   /***********
@@ -44,6 +44,4 @@
  ***************/
 
 
-/************
- *  Custom  *
- ************/
+/* Custom */
