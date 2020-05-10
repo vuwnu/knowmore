@@ -5,19 +5,23 @@
 
 <body class="xyz">
 
-<main class="main" aria-label="Content">
-  
+  <header>
+    <a href="/"><img class="logo" src="/assets/images/logo.png" alt="Knowmore"></a>
+  </header>
+
+  <main class="main" aria-label="Content">
+    {% include page_head.html %}
+    <!-- Markdown Styling Wrapper -->
+    <div class="xyz-md">
+      {% include toc.html html=content %}
+      {{ content }}
+    </div>
+  </main>
+
   {% include nav.html %}
 
-  {% include page_head.html %}
-
-  <div class="xyz-md">
-    {% include toc.html html=content %}
-    {{ content }}
-  </div>
-</main>
-
-{% include footer.html %}
+  {% include footer.html %}
 
 </body>
+
 </html>

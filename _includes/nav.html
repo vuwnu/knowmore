@@ -1,15 +1,5 @@
-{%- assign page_paths = site.nav_pages | default: default_paths -%}
-<nav>
-  <img class="logo" src="/assets/images/logo.png" alt="Knowmore">
-  <div class="topnav" id="myTopnav">
-    <a href="/" style="padding: 10px 16px;"><img style="width:33px;" class="home" src="/assets/images/home.png" alt="home"></a>
-    {%- for path in page_paths -%}
-    {%- assign my_page = site.pages | where: "path", path | first -%}
-    {%- if my_page.title -%}
-    <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-    {%- endif -%}
-    {%- endfor -%}
-    <a href="javascript:void(0);" style="font-size:23px;" class="icon" onclick="navButton()">&#9776;</a>
-    <img class="logonav" src="/assets/images/logo.png" alt="Knowmore">
-  </div>
+<nav class="navbar b">
+  <a href="contents">Contents</a>
+  <a href="about">About</a>
+  <a href="contribute">Contribute</a>
 </nav>

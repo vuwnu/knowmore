@@ -4,14 +4,14 @@
  *  Variables  *
  ***************/
 :root {
-  /****************
-   *  Main Theme  *
-   ****************/
-
-  --primary-color: #a4a4a4;
-  --secondary-color: #ffffff;
-  --tertiary-color: grey;
-  --background-color: #111;
+  /** Colors **/
+  /* These are the main colors used for stlying elements across the app */
+  --primary-color: #bbb;
+  --secondary-color: darkgrey;
+  --tertiary-color: lime;
+  --background-color: #222;
+  --background-border-color: #1d1d1d;
+  --border-bg-color: #2e2e2e;
 
   /* Border */
   --border-type: solid;
