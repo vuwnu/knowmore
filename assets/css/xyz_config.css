@@ -48,3 +48,8 @@
 header a {
   margin: auto;
 }
+
+.searchBar {
+  text-align: center;
+  flex: 1 1;
+}
