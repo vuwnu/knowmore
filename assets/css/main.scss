@@ -260,21 +260,6 @@ a:hover {
   // }
 }
 
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .topnav .logonav {
-    display: block;
-  }
-  img.logo {
-    display: none;
-  }
-}
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
