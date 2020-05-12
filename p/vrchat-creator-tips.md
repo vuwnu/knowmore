@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Tips for VRChat Content Creators
-topic: VRChat
-tags: [VRChat, List, Unity, Blender]
+tags: [vrchat, list, unity, blender]
 description: A collection of tips to help with content creation for VRChat
 ---
 
