@@ -10,10 +10,12 @@
   </header>
 
   <main class="main" aria-label="Content">
-    {% include page_head.html %}
+    <div class="group-r">
+      {% include page_head.html %}
+      {% include toc.html html=content %}
+    </div>
     <!-- Markdown Styling Wrapper -->
     <div class="xyz-md">
-      {% include toc.html html=content %}
       {{ content }}
     </div>
   </main>
