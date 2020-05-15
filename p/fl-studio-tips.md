@@ -6,3 +6,5 @@ description: A few tips and shortcuts that'll help improve your workflow while w
 ---
 
 A few tips and shortcuts that'll help improve your workflow while working in FL Studio
+
+### Shortcuts
