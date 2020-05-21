@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Spicetify Modify your Spotify
+title: Spicetify: Modify your Spotify
 tags: [customization, spotify, themes, css, js]
 description: Modify your Spotify client so you can use custom themes and JS
 ---
