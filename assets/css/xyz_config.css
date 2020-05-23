@@ -42,11 +42,16 @@
 /***************
  *  Font-Face  *
  ***************/
-
+ @font-face {
+   font-family: 'telegrafico';
+   src:
+     local('telegrafico'),
+     url('/assets/fonts/Telegrafico.ttf') format('truetype');
+ }
 
 /* Custom */
 header a {
-  margin: auto;
+  font-family: telegrafico, sans-serif;
 }
 
 .searchBar {
