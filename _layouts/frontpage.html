@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+
+{% include head.html %}
+
+<body class="xyz center">
+
+  <header>
+    <a href="/">Knowmore</a>
+  </header>
+
+  <main class="main" aria-label="Content">
+    <div class="obj bg">
+      <input class="searchBar" type="text" id="filterTags" onkeyup="filterTags()" placeholder="Search...">
+    </div>
+  </main>
+
+  {% include nav.html %}
+
+  {% include footer.html %}
+
+</body>
+
+</html>
