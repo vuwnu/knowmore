@@ -61,3 +61,11 @@ header a {
   text-align: center;
   flex: 1 1;
 }
+
+/* FrontPage */
+.fpWrapper {
+  max-width: 250px;
+}
+.fpHeader {
+  font-size: 3em;
+}
