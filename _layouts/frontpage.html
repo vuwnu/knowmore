@@ -5,19 +5,16 @@
 
 <body class="xyz center">
 
-  <header>
+<div class="fpWrapper">
+  <header class="fpHeader">
     <a href="/">Knowmore</a>
   </header>
-
   <main class="main" aria-label="Content">
-    <div class="obj bg">
-      <input class="searchBar" type="text" id="filterTags" onkeyup="filterTags()" placeholder="Search...">
-    </div>
+    {{ content }}
   </main>
-
   {% include nav.html %}
-
   {% include footer.html %}
+</div>
 
 </body>
 
