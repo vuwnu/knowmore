@@ -3,17 +3,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <title>Knowmore</title>
 
   <link rel="manifest" href="/site.webmanifest">
 
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  <link rel="stylesheet" href="https://static.vaynwork.com/xyz/CSS/xyz.css">
-  <link rel="stylesheet" href="https://static.vaynwork.com/xyz/CSS/modules/xyz_MD.css">
-  <link rel="stylesheet" href="{{ "/assets/css/xyz_config.css" | relative_url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="shortcut icon" href="/assets/images/favicon.png">
   <script src="/assets/js/main.js"></script>
-  {% feed_meta %}
 </head>
