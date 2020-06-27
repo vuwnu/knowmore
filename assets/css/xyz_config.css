@@ -65,10 +65,8 @@ header a {
 
 /* FrontPage */
 .fpWrapper {
-  max-width: 400px;
   display: flex;
   flex-flow: column;
-  margin: auto;
 }
 .fpHeader {
   font-size: 2em;
