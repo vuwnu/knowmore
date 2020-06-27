@@ -1,9 +1,9 @@
 @charset 'UTF-8';
 
-/***************
- *  Variables  *
- ***************/
 :root {
+
+  --y-axis-page-align: flex-start;
+  --x-axis-page-align: center;
   /** Colors **/
   /* These are the main colors used for stlying elements across the app */
   --primary-color: #bbb;
@@ -26,7 +26,6 @@
    ***********/
 
   --max-width: 1300px;
-  --margin-width: 900px;
 
   /***********
    *  Fonts  *
