@@ -1,22 +1,20 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
 
-{% include head.html %}
-
-<body class="xyz">
+<page>
 
   <header>
     <a href="/">Knowmore</a>
   </header>
 
-  <main class="main" aria-label="Content">
-    {{ content }}
-  </main>
+  <main></main>
 
-  {% include nav.html %}
+  <xyz-navbar class="navbar a">
+    <a href="/posts">Posts</a>
+    <a href="/about">About</a>
+    <a href="/contribute">Contribute</a>
+  </xyz-navbar>
 
-  {% include footer.html %}
+  <footer>
+    <p>Knowmore is a <a href="https://vaynwork.com">VAYNWORK</a> project<br>Visit the <a href="https://github.com/vaynwork/knowmore">GitHub repo</a> for this site</>
+  </footer>
 
-</body>
-
-</html>
+</page>
