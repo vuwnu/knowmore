@@ -1,9 +1,10 @@
----
-layout: page
-title: Best Free Blender Addons
-tags: [blender, list, addons, 3d-modelling]
-description: Some of the most useful free addons for Blender to improve workflow
----
+<!-- <script>
+p = {
+  title: Best Free Blender Addons
+  description: Some of the most useful free addons for Blender to improve workflow
+  tags: [blender, list, addons, 3d-modelling]
+}
+</script> -->
 
 While Blender has a lot of helpful functionality built into it, these are all addons that are worth trying to improve your Blender work flow. Some of them add minor features while others change how Blender functions entirely.
 
