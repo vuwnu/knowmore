@@ -13,5 +13,12 @@
       "fl-studio",
       "music"
     ]
-  }
+  },
+  "3": {
+    "name":"blender-addons",
+    "tags":[
+      "blender",
+      "addons",
+      "3d-modelling"
+    ]
 }
