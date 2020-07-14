@@ -4,8 +4,7 @@
 
   --y-axis-page-align: flex-start;
   --x-axis-page-align: center;
-  /** Colors **/
-  /* These are the main colors used for stlying elements across the app */
+
   --primary-color: #bbb;
   --secondary-color: darkgrey;
   --tertiary-color: lime;
@@ -51,7 +50,12 @@ body {
   background: #333;
   padding: 5px;
 }
-
+.content-styling h4 a{
+  background: #333;
+  padding: 10px;
+  background: #222;
+  margin: 5px 0;
+}
 
 .searchBar {
   text-align: center;
