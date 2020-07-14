@@ -21,28 +21,14 @@
 
   --background: #222;
 
-  /***********
-   *  Sizes  *
-   ***********/
-
-  --max-width: 1300px;
-
-  /***********
-   *  Fonts  *
-   ***********/
+  --max-width: 900px;
 
   --primary-font: 'Verdana', monospace;
   --secondary-font: 'Arial', monospace;
-  --header-font: 'Geneva', monospace;
+  --header-font: 'Verdana', monospace;
   --font-size: var(--responsive-font-size);
-  /************
-   *  Images  *
-   ************/
 }
 
-/***************
- *  Font-Face  *
- ***************/
  @font-face {
    font-family: 'telegrafico';
    src:
@@ -57,6 +43,15 @@ header a {
   font-size: 1.8em;
   font-weight: 600;
 }
+body {
+  padding: 0 10px
+}
+
+.content-styling section{
+  background: #111;
+  padding: 5px;
+}
+
 
 .searchBar {
   text-align: center;
