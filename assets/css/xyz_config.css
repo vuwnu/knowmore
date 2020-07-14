@@ -50,6 +50,13 @@ body {
   background: #333;
   padding: 15px;
 }
+.content-styling section:nth-of-type(1){
+  background: 0;
+  padding: 15px;
+}
+.content-styling section:nth-of-type(1) h1{
+  font-size: 6em;
+}
 a.big{
   padding: 10px;
   background: #444;
