@@ -50,7 +50,7 @@ body {
 }
 main {
   background: #2c2c2c;
-  border: 2px #777 solid;
+  border: 2px rgba(1,1,1,0.1) solid;
   padding: 10px;
   margin: 5px;
 }
@@ -59,7 +59,7 @@ header, zoon-nav, footer {
 }
 /* Knowmore Theme */
 .knowmore section {
-  border: 2px solid rgba(1,1,1,0.8);
+  border: 2px solid rgba(1,1,1,0.2);
 }
 
 .content-styling section{
