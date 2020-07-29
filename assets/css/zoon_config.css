@@ -46,16 +46,17 @@ body {
   padding: 0 10px
 }
 main {
-  background: #2a2a2a;
+  background: #2c2c2c;
+  border: 2px #777 solid;
   padding: 10px;
+  margin: 5px;
 }
 header, zoon-nav, footer {
   background: var(--background);
 }
 /* Knowmore Theme */
 .knowmore section {
-  border: 1px solid grey;
-  background: ;
+  border: 2px solid rgba(1,1,1,0.8);
 }
 
 .content-styling section{
