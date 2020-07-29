@@ -50,6 +50,12 @@ main {
   padding: 10px;
 }
 
+/* Knowmore Theme */
+.knowmore section {
+  border: 1px solid grey;
+  background: ;
+}
+
 .content-styling section{
   background: #333;
   padding: 15px;
