@@ -37,10 +37,13 @@
 
 /* Custom */
 header a {
-  margin: auto;
+  text-align: center;
+  width: 100%;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 600;
+  font-family: 'telegrafico';
+  padding: 5px;
 }
 body {
   padding: 0 10px
