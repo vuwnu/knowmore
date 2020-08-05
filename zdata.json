@@ -3,5 +3,5 @@
   "description": "Expand your knowledge",
   "config": "/",
   "files": "assets",
-  "theme": "knowmore"
+  "theme": "default"
 }
