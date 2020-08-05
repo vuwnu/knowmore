@@ -22,9 +22,9 @@
 
   --max-width: 900px;
 
-  --primary-font: 'Verdana', monospace;
-  --secondary-font: 'Arial', monospace;
-  --header-font: 'Verdana', monospace;
+  --font-primary: 'Verdana', monospace;
+  --font-secondary: 'Arial', monospace;
+  --font-header: 'Verdana', monospace;
   --font-size: var(--responsive-font-size);
 }
 
