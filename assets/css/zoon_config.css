@@ -36,11 +36,8 @@
  }
 
 /* Custom */
-header a {
-  text-align: center;
-  width: 100%;
+.logo {
   text-transform: uppercase;
-  font-size: 4em;
   font-weight: 600;
   font-family: 'telegrafico';
   padding: 5px;
