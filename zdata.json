@@ -3,5 +3,6 @@
   "description": "Expand your knowledge",
   "config": "/",
   "files": "assets",
+  "layout": "default",
   "theme": "default"
 }
