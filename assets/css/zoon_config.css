@@ -14,12 +14,6 @@
 
   --color-logo: #588ff0;
 
-  /* Border */
-  --border-type: solid;
-  --border-thickness: 0px;
-  --border-radius: 0px;
-  --border-color: dimgrey;
-
   --background: #284374;
 
   --max-width: 900px;
