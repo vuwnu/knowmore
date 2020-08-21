@@ -8,4 +8,4 @@ If you want to help in the development of this wiki, more information can be fou
 
 Visit the website at:
 
-## [knowmore.vuw.nu](https://www.knowmore.vuw.nu)
+## [knowmore.vuw.nu](https://knowmore.vuw.nu)
