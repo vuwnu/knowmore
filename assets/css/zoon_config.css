@@ -21,6 +21,7 @@
   --font-primary: 'Verdana', monospace;
   --font-secondary: 'Arial', monospace;
   --font-header: 'Verdana', monospace;
+  --font-logo: 'telegrafico';
   --font-size: var(--responsive-font-size);
 }
 
@@ -35,7 +36,6 @@
 .logo {
   text-transform: uppercase;
   font-weight: 600;
-  font-family: 'telegrafico';
   padding: 5px;
 }
 /* Knowmore Theme */
