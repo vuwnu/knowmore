@@ -9,7 +9,7 @@
 
   <link rel="manifest" href="/site.webmanifest">
 
-  <link rel="shortcut icon" href="/assets/images/favicon.png">
+  <link rel="shortcut icon" href="/icon.png">
   <script src="/assets/js/main.js"></script>
 
   <!-- Twitter Card -->
@@ -18,25 +18,29 @@
   <meta name="twitter:url" content="https://knowmore.vuw.nu/">
   <meta name="twitter:title" content="Knowmore">
   <meta name="twitter:description" content="Booru-style site hosting tutorials, guides and lists for a wide variety of different subjects">
-  <meta name="twitter:image" content="/assets/images/favicon.png">
+  <meta name="twitter:image" content="/icon.png">
   <meta name="twitter:image:alt" content="Knowmore icon">
   <meta name="twitter:card" content="summary_large_image">
 
   <script src="https://cdn.jsdelivr.net/gh/vuwnu/zoon@master/zoon.js"></script>
   <link href="https://cdn.jsdelivr.net/gh/vuwnu/flair@master/flair.css" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/zoon_config.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <z-data>
 pageName = Post
 </z-data>
 
-<body>
+<html>
 
+<body>
+  <z-sm>
+    <z-frame frame="default" src="/frames/"></z-frame>
+  </z-sm>
   <main>
-    <z-query src="/pages" key="p">
-      <z-html src="/pages/search"></z-html>
-    </z-query>
+    <z-html src="/pages/search"></z-html>
   </main>
 
 </body>
+
+</html>
