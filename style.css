@@ -29,7 +29,7 @@
    font-family: 'telegrafico';
    src:
      local('telegrafico'),
-     url('/assets/fonts/Telegrafico.ttf') format('truetype');
+     url('/Telegrafico.ttf') format('truetype');
  }
 
 /* Custom */
