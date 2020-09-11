@@ -2,7 +2,7 @@
   "short_name": "Knowmore",
   "name": "Knowmore",
   "icons": [{
-    "src": "assets/images/favicon.png",
+    "src": "icon.png",
     "type": "image/png",
     "sizes": "192x192"
   }],
