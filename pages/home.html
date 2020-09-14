@@ -1,8 +1,9 @@
 <z-object name="posts" src="/posts.json"></z-object>
 <section>
-  <p class="tac">Welcome to Knowmore!</p>
+  <h3 class="tac">Welcome to Knowmore!</h3>
 </section>
 <section>
   <input class="searchBar" type="text" id="filterTags" onkeyup="filterTags()" placeholder="Search...">
+  <z-table src="posts"></z-table>
   <div id="output"></div>
 </section>
