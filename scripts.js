@@ -1,7 +1,6 @@
 function json2Table(json) {
   let cols = Object.keys(json[0]);
 
-
   //Map over columns, make headers,join into string
   let headerRow = cols
     .map(col => `<th>${col}</th>`)
@@ -59,6 +58,7 @@ data =[
   }
 ]
 
-
-output = document.getElementById('output')
-output.innerHTML = json2Table(data)
+setTimeout(function () {
+  output = document.getElementById('output')
+  output.innerHTML = json2Table(data)
+}, 5000);
