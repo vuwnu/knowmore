@@ -1,24 +1,25 @@
-{
-  "1": {
-    "name":"customise-spotify-with-spicetify",
-    "tags":[
+[
+  {
+    "name": "customise-spotify-with-spicetify",
+    "tags": [
       "spotify",
       "cusomisation",
       "cli"
     ]
   },
-  "2": {
-    "name":"fl-studio-tips",
-    "tags":[
+  {
+    "name": "fl-studio-tips",
+    "tags": [
       "fl-studio",
       "music"
     ]
   },
-  "3": {
-    "name":"blender-addons",
-    "tags":[
+  {
+    "name": "blender-addons",
+    "tags": [
       "blender",
       "addons",
       "3d-modelling"
     ]
-}
+  }
+]
