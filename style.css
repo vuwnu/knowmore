@@ -45,8 +45,9 @@
 }
 a.big{
   padding: 10px;
-  background: #444;
+  background: rgba(#000000, 0.5);
   margin: 5px 0;
+  text-align: center;
 }
 
 .km-search-bar {
