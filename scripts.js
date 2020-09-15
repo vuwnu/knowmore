@@ -39,10 +39,8 @@ class KMTable extends HTMLElement {
   }
   connectedCallback() {
     if (!this.rendered) {
-      setTimeout(function () {
-        this.render();
-        this.rendered = true;
-      }, 4000);
+      this.render();
+      this.rendered = true;
     }
   }
 }
