@@ -1,4 +1,3 @@
-
 class KMTable extends HTMLElement {
   render() {
     let json = window[this.getAttribute('src')]
