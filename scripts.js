@@ -33,7 +33,6 @@ class KMTable extends HTMLElement {
       <tbody>
     <table>`;
 
-    return table;
     this.innerHTML = table;
     zoon.log('z-table', '#de2f7d', `Built table`);
   }
