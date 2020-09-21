@@ -1,6 +1,6 @@
 data =[
   {
-    "name": '<a href="/p/customise-spotify-with-spicetify">customise-spotify-with-spicetify</a>',
+    "name": '<a href="/p/modify-spotify-with-spicetify">modify-spotify-with-spicetify</a>',
     "tags": [
       "spotify",
       "cusomisation",
