@@ -15,7 +15,7 @@ data =[
     ]
   },
   {
-    "name": '<a href="/p/fl-studio-tips">fl-studio-tips</a>',
+    "name": '<a href="/p/blender-addons">blender-addons</a>',
     "tags": [
       "blender",
       "addons",
