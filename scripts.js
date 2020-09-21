@@ -8,14 +8,14 @@ data =[
     ]
   },
   {
-    "name": "fl-studio-tips",
+    "name": '<a href="/p/fl-studio-tips">fl-studio-tips</a>',
     "tags": [
       "fl-studio",
       "music"
     ]
   },
   {
-    "name": "blender-addons",
+    "name": '<a href="/p/fl-studio-tips">fl-studio-tips</a>',
     "tags": [
       "blender",
       "addons",
