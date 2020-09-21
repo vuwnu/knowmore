@@ -47,7 +47,7 @@ customElements.define("km-table", KMTable);
 
 data =[
   {
-    "name": "customise-spotify-with-spicetify",
+    "name": '<a href="/p/customise-spotify-with-spicetify">customise-spotify-with-spicetify</a>',
     "tags": [
       "spotify",
       "cusomisation",
