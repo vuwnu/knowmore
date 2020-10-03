@@ -46,9 +46,19 @@ a.big{
 }
 
 main {
-  border: 5px solid rgba(#000000, 0.5);
-  background: #333;
-  color: #999;
+  border: 5px solid #2a2a2a;
+  background: #343434;
+  color: #dedede;
+}
+main.dark-mode {
+  border: 5px solid #2a2a2a;
+  background: #343434;
+  color: #dedede;
+}
+main.light-mode {
+  border: 5px solid #c2c2c2;
+  background: #e2e2e2;
+  color: #1a1a1a;
 }
 
 section {
