@@ -49,6 +49,7 @@ main {
   border: 5px solid #2a2a2a;
   background: #343434;
   color: #dedede;
+  transition: all 1s;
 }
 .lightswitch-off {
   border: 5px solid #2a2a2a;
