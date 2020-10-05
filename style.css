@@ -52,12 +52,12 @@ main {
   transition: all .3s;
 }
 .lightswitch-off {
-  border: 5px solid #2a2a2a;
-  background: #343434;
+  border: 5px solid rgba(#2a2a2a, 0.85);
+  background: rgba(#343434, 0.85);
   color: #dedede;
 }
 .lightswitch-on {
-  border: 5px solid #c2c2c2;
-  background: #e2e2e2;
+  border: 5px solid rgba(#c2c2c2, 0.85);
+  background: rgba(#e2e2e2, 0.85);
   color: #1a1a1a;
 }
