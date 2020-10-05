@@ -1,7 +1,6 @@
 @charset 'UTF-8';
 
 :root {
-
   --y-axis-page-align: flex-start;
   --x-axis-page-align: center;
 
@@ -18,12 +17,12 @@
   --font-size: var(--responsive-font-size);
 }
 
- @font-face {
-   font-family: 'telegrafico';
-   src:
-     local('telegrafico'),
-     url('/Telegrafico.ttf') format('truetype');
- }
+@font-face {
+ font-family: 'telegrafico';
+ src:
+   local('telegrafico'),
+   url('/Telegrafico.ttf') format('truetype');
+}
 
 /* Custom */
 .logo {
@@ -45,6 +44,7 @@ a.big{
   margin: 20px;
 }
 
+/* Dark/Light Mode Classes */
 main {
   border: 5px solid #2a2a2a;
   background: #343434;
@@ -60,24 +60,4 @@ main {
   border: 5px solid #c2c2c2;
   background: #e2e2e2;
   color: #1a1a1a;
-}
-
-section {
-  padding: 20px;
-  margin: 5px;
-}
-.default z-nav a {
-  background: #00000050;
-  border: 1px solid rgba(1,1,1,.3);
-  padding: 10px;
-  margin:0;
-}
-.default z-nav a:first-of-type {
-  border-right: 0;
-}
-.default z-nav a:last-of-type {
-  border-left: 0;
-}
-.default z-nav {
-  margin: 5px;
 }
