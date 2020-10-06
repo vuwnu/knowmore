@@ -37,11 +37,6 @@ a.big{
   text-align: center;
 }
 
-.km-search-bar {
-  text-align: center;
-  flex: 1 1;
-  margin: 20px;
-}
 
 /* Dark/Light Mode Classes */
 #content-area {
