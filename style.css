@@ -28,6 +28,7 @@
 .logo {
   font-weight: 600;
 }
+.mx-5 {margin: 5px 0}
 
 a.big{
   padding: 10px;
@@ -43,7 +44,7 @@ a.big{
 }
 
 /* Dark/Light Mode Classes */
-main {
+#content-area {
   border: 5px solid #2a2a2a;
   background: #343434;
   color: #dedede;
