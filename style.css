@@ -45,16 +45,16 @@ z-nav a {
 }
 
 /* Dark/Light Mode Classes */
-#content-area {
-  transition: all .3s;
+#body-id {
+  transition: background .3s, color .3s;
 }
 .lightswitch-off {
-  --con-color: #ffffff7d;
+  --con-color: #00000050;
   background: #343434;
   color: #dedede;
 }
 .lightswitch-on {
-  --con-color: #00000050;
+  --con-color: #ffffff7d;
   background: #e2e2e2;
   color: #1a1a1a;
 }
