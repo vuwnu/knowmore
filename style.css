@@ -37,18 +37,24 @@ a.big{
   text-align: center;
 }
 
+.container {
+  background: var(--con-color);
+}
+z-nav a {
+  background: var(--con-color);
+}
 
 /* Dark/Light Mode Classes */
 #content-area {
   transition: all .3s;
 }
 .lightswitch-off {
-  border: 5px solid #2a2a2a;
+  --con-color: #ffffff7d;
   background: #343434;
   color: #dedede;
 }
 .lightswitch-on {
-  border: 5px solid #c2c2c2;
+  --con-color: #00000050;
   background: #e2e2e2;
   color: #1a1a1a;
 }
