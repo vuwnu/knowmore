@@ -1,12 +1,8 @@
 @charset 'UTF-8';
 
 :root {
-  --y-axis-page-align: flex-start;
-  --x-axis-page-align: center;
-
   --color-logo: #588ff0;
-
-  --background: #284374;
+  --background: var(--con-color);
 
   --max-width: 900px;
 
@@ -24,12 +20,6 @@
    url('/Telegrafico.ttf') format('truetype');
 }
 
-/* Custom */
-.logo {
-  font-weight: 600;
-}
-.mx-5 {margin: 5px 0}
-
 a.big{
   padding: 10px;
   background: rgba(#000000, 0.5);
@@ -40,6 +30,7 @@ a.big{
 .container {
   background: var(--con-color);
 }
+
 z-nav a {
   background: var(--con-color);
 }
