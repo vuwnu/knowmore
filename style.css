@@ -5,6 +5,7 @@
   --background: #343434;
 
   --max-width: 900px;
+  --layout-grid-gap: 0;
 
   --font-primary: 'Verdana', monospace;
   --font-secondary: 'Arial', monospace;
