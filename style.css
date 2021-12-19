@@ -21,32 +21,3 @@
    url('/Telegrafico.ttf') format('truetype');
 }
 
-a.big{
-  padding: 10px;
-  background: rgba(#000000, 0.5);
-  margin: 5px 0;
-  text-align: center;
-}
-
-.container {
-  background: var(--con-color);
-}
-
-z-nav a {
-  background: var(--con-color);
-}
-
-/* Dark/Light Mode Classes */
-#body-id {
-  transition: background .3s, color .3s;
-}
-.lightswitch-off {
-  --con-color: #00000050;
-  background: #343434;
-  color: #dedede;
-}
-.lightswitch-on {
-  --con-color: #ffffff7d;
-  background: #e2e2e2;
-  color: #1a1a1a;
-}
