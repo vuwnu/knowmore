@@ -1,28 +1,32 @@
-<header>
-  <div class="logo no-select t-t:uppercase t-w:600 p:10 pb:20">Knowmore</div>
-</header>
+<div s-layout="single_column">
 
-<nav>
-  <z-nav>
-    <a onclick="z.loadPage('/pages/search')" href="/">Home</a>
-    <a onclick="z.loadPage('/pages/about')" href="/about">About</a>
-    <a onclick="z.loadPage('/pages/contribute')" href="/contribute">Contribute</a>
-    <a style="max-width:44px;">
-      <z-class-toggle target="body-id" style="width:100%;height:100%;">🌙</z-class-toggle>
-    </a>
-  </z-nav>
-</nav>
-
-<main>
-  <div class="container tac-h" id="content-area">
-    <z-html-path src="/pages"></z-html-path>
-  </div>
-</main>
-
-<footer>
-  <div class="container">
-    Knowmore is a <a href="https://vuwnu.com">Vuwnu</a> project<br>
-    Visit the <a href="https://github.com/vuwnu/knowmore">GitHub repo</a> for this site<br>
-    powered by <zoon-logo></zoon-logo>
-  </div>
-</footer>
+  <header>
+    <div class="logo no-select t-t:uppercase t-w:600 p:10 pb:20">Knowmore</div>
+  </header>
+  
+  <nav>
+    <z-nav>
+      <a onclick="z.loadPage('/pages/search')" href="/">Home</a>
+      <a onclick="z.loadPage('/pages/about')" href="/about">About</a>
+      <a onclick="z.loadPage('/pages/contribute')" href="/contribute">Contribute</a>
+      <a style="max-width:44px;">
+        <z-class-toggle target="body-id" style="width:100%;height:100%;">🌙</z-class-toggle>
+      </a>
+    </z-nav>
+  </nav>
+  
+  <main>
+    <div class="container tac-h" id="content-area">
+      <z-html-path src="/pages"></z-html-path>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="container">
+      Knowmore is a <a href="https://vuwnu.com">Vuwnu</a> project<br>
+      Visit the <a href="https://github.com/vuwnu/knowmore">GitHub repo</a> for this site<br>
+      powered by <zoon-logo></zoon-logo>
+    </div>
+  </footer>
+  
+</div>
